@@ -16,7 +16,7 @@ zip:
 	zip -r -X lastpass-hide-error.zip lastpass-hide-error
 
 .PHONY: dist
-dist: clean build copy-icons zip
+dist: build copy-icons zip
 
 
 .PHONY: all
