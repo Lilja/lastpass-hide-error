@@ -1,6 +1,6 @@
 {
     "name": "LastPass error disabler",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Disables the error message from LastPass that's visibile on top of all pages",
     "manifest_version": 2,
     "content_scripts": [
@@ -10,5 +10,10 @@
             "run_at": "document_end",
             "all_frames": true
         }
-    ]
+    ],
+    "icons": {
+        "16": "icon_16.jpg",
+        "48": "icon_48.jpg",
+        "128": "icon_128.jpg"
+    }
 }
