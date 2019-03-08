@@ -10,8 +10,13 @@ zip:
 dist: build zip
 
 
+.PHONY: all
 all: dist
 
+.PHONY: start-test
+start-test:
+	python3 -m http.server
 
+.PHONY: clean
 clean:
 	rm -r lastpass-hide-error ; rm -r lastpass-hide-error.zip
