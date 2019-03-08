@@ -4,7 +4,7 @@ clean:
 
 .PHONY: dist
 build:
-	mkdir lastpass-hide-error ; cp -r js/ lastpass-hide-error ; cp manifest.json lastpass-hide-error ;
+	mkdir lastpass-hide-error ; cp -r js lastpass-hide-error ; cp manifest.json lastpass-hide-error ;
 
 
 .PHONY: copy-icons
