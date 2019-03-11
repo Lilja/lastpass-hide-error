@@ -5,6 +5,9 @@ function removeLastPassErrors() {
     if (elem) {
         elem.remove();
     }
+
+    // Remove spacing element that lastpass creates
+    document.querySelectorAll('[id^=lptopspacer]').forEach(k => k.remove());
 }
 
 function main() {
